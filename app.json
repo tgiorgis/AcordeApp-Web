@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "Acorde",
+    "slug": "acorde-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "scheme": "acorde-app", 
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.tatigiorgis.acordeapp"
+    },
+    "android": {
+      "package": "com.tatigiorgis.acordeapp",
+      "versionCode": 1, 
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "e0b8c403-3280-4bae-98e5-7ed4a1bb6517"
+      }
+    }
+  }
+}
